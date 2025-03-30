@@ -1,7 +1,5 @@
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-    });
+Java script
+document.querySelector('header').addEventListener('click', function() {
+    document.querySelector('header').style.backgroundColor = '#444';
 });
 
